@@ -67,6 +67,7 @@ function createPerson(name, age, location){
  console.log({Fourthphone})
  
  //NO 5 Question 
+
  const presidentialCanditates = {
     AAC: 'Omoyele Sowore',
     ACCORD: 'Christopher Imumolen',
@@ -75,4 +76,8 @@ function createPerson(name, age, location){
     NNPP: 'Rabiu Kwankwaso',
     PDP: 'Atiku Abubakar',
  }
+  for (let key of Object.keys(presidentialCandidates)) {
+    //console.log(key);
+     console.log(presidentialCandidates[key] + " is the presidential candidate of " + [key]);
+   }
   
